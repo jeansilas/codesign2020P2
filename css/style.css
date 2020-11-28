@@ -44,6 +44,7 @@ header {
     border-radius: 0rem;
 }
 
+
 h1 {
     color:#FAC35E;
     font-family: 'Cabin', sans-serif;
@@ -78,7 +79,10 @@ a {
 
 }
 
-
+.lista {
+   border-bottom: .1rem solid white;
+   padding: 1rem;
+}
 .login {
   display: flex;
   flex-direction: column;
