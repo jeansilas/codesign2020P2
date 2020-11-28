@@ -43,7 +43,17 @@ header {
     border-bottom: .1rem solid white;
     border-radius: 0rem;
 }
-
+.menu_prof {
+  background-color: #85A5BC;
+}
+nav {
+  position: fixed;
+  top: 0;
+  right: 0px;
+  height: 100%;
+  color: white;
+  background-color: #005988;
+}
 
 h1 {
     color:#FAC35E;
