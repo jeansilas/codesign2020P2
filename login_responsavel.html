@@ -17,27 +17,25 @@
             <img src="img/logo_coruja.png" alt = "logo coruja" class="imagem">
         </header>
         <main>
+
+
+
             <div id="login-error-msg-holder">
                 <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
             </div>
 
-            
-            <login class="login">
-                <label for="usuario"><b>Usuário</b></label>
-                <input type="text" placeholder="Usuário" name="usuario" required>
-
-                <label for="senha"><b>Senha</b></label>
-                <input type="password" placeholder="Senha" name="senha" required>
-            </login>
-
-
-            
-            <a href="msg_erro.html">
-                <button type="submit">Entrar</button>
+            <a>
+                <form id="login">
+                    <input type="username" name="usuario"  class="login" placeholder="usuario">
+                    <input type="password" name="senha" class="login" placeholder="senha">
+                    <button type="submit">
+                        <input type="submit" value="entrar" id="login-form-submit" class="login">
+                    </button>
+                    <input type="checkbox" checked="checked" name="remember" class="login"> Lembrar usuário
+                </form>
             </a>
-            <label>
-            <input type="checkbox" checked="checked" name="remember"> Lembrar usuário
-            </label>
+
+
         </main>
     </body>
 </html>
