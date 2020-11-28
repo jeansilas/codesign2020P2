@@ -9,8 +9,8 @@ body {
     justify-content: space-evenly;
     height: 100%;
     background-color: #005988;
-    margin: 1rem;
-    padding-top: 5rem;
+    margin: 0rem;
+    padding-top: 1rem;
 }
 
 
@@ -18,6 +18,7 @@ main{
     display: flex;
     flex-direction: column; 
     justify-content: space-evenly;
+    padding: 2rem;
     height: 100%;
 }
 
@@ -29,17 +30,31 @@ header {
     justify-content: space-evenly;
     margin: 1rem;
     padding: 1rem;
-    border: .1rem solid white;
     border-radius: 1rem;
     align-items: center;
 }
-
+.menu {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin : 0rem 0rem 1rem 0rem;
+    padding: 0rem 1rem 1rem 1rem;
+    border-bottom: .1rem solid white;
+    border-radius: 0rem;
+}
 
 h1 {
     color:#FAC35E;
     font-family: 'Cabin', sans-serif;
     font-size: 4em;
     text-align: center;
+}
+h2 {
+  color:#FAC35E;
+  font-family: 'Cabin', sans-serif;
+  font-size: 2em;
+  text-align: center;
 }
 
 a {
@@ -55,6 +70,7 @@ a {
     font-family: 'Cabin', sans-serif;
     background-color: #005988;
 }
+
 
 .login {
   display: flex;
@@ -76,7 +92,11 @@ a {
     height: auto;
     margin: 2rem 2rem 2rem 2rem;
   }
-
+.imagem_menu {
+  height: 4rem;
+  width : 4rem;
+  
+}
 
   text {
     color: #FAC35E;
