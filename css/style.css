@@ -70,6 +70,13 @@ a {
     font-family: 'Cabin', sans-serif;
     background-color: #005988;
 }
+.bar {
+  display: block;
+  margin: 0rem;
+  padding: 0rem;
+  border: 0rem;
+  
+}
 
 
 .login {
