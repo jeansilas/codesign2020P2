@@ -17,13 +17,21 @@
             <img src="img/logo_coruja.png" alt = "logo coruja" class="imagem">
         </header>
         <main>
-            <a class="login">
+            <div id="login-error-msg-holder">
+                <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+            </div>
+
+            
+            <login class="login">
                 <label for="usuario"><b>Usuário</b></label>
                 <input type="text" placeholder="Usuário" name="usuario" required>
 
                 <label for="senha"><b>Senha</b></label>
                 <input type="password" placeholder="Senha" name="senha" required>
             </login>
+
+
+            
             <a href="msg_erro.html">
                 <button type="submit">Entrar</button>
             </a>
