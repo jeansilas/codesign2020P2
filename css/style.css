@@ -86,8 +86,20 @@ a {
     font-family: 'Cabin', sans-serif;
     background-color: #005988;
 }
+.profile {
+  border: 0rem;
+  background-color:#85A5BC ;
+  justify-content: flex-start;
+  font-size: 2rem ;
+  align-items: center;
+  color: white;
+  margin: 0rem;
+  padding: 0rem;
+}
 
-
+p {
+  margin: 0rem 0rem 0rem 1rem;
+}
 .bar {
   display: block;
   margin: 0rem;
