@@ -60,7 +60,7 @@ h2 {
 a {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 1rem;
     padding: 1rem;
     border: .1rem solid white;
@@ -75,7 +75,7 @@ a {
   margin: 0rem;
   padding: 0rem;
   border: 0rem;
-  
+
 }
 
 
@@ -103,6 +103,10 @@ a {
   height: 4rem;
   width : 4rem;
   
+}
+.imagem_botão {
+  height: 2rem;
+  width : 2rem;
 }
 
   text {
