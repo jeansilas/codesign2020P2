@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.google.com/specimen/Cabin" rel="stylesheet">
         <script type="text/javascript" src="src/login.js"></script>
+        <script type="text/javascript" src="src/erro.js"></script>
     </head>
     <body>
         <header>
@@ -26,12 +27,12 @@
                 <form id="login-form">
                     <input type="username" id="username"  class="login" placeholder="usuario">
                     <input type="password" id="password" class="login" placeholder="senha">
-                    <input type="button" value="entrar" id="botao-login" class="login" onclick="validar()"/> 
+                    <input type="button" value="entrar" id="botao-login" class="login-botao" onclick="validar()"/> 
                 </form>
             </a>
         </main>
         <footer>
-            <a class="bar" href="index.html">
+            <a class="bar" onclick="retorna()">
                 <img src = "img/button_voltar.png" alt = "voltar" class="imagem_menu">
             </a>
         </footer>

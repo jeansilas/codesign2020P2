@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <title>Turmas</title>
+        <title>Adicionar Turma</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/reset.css">
@@ -11,23 +11,28 @@
         <script type="text/javascript" src="src/erro.js"></script>
     </head>
     <body>
-        <header class = "menu">
+        <header class = "menu menor" >
             <a class="bar" href="menu_professor.html">
                 <img src = "img/Bar.png" alt = "Bar icon" class="imagem_menu">
             </a>
-            <h2>Turmas</h2>
+            <h2>Turma 1</h2>
             <img src = "img/logo_coruja.png" alt = "Logo da Coruja" class="imagem_menu">
         </header>
-        <main>
-            <a href="turma_X.html">Turma 1301</a>
-            <a href="msg_erro.html">Turma 1302</a>
-            <a class="index2" href="add_turma.html"><img src = "img/button_add.png" alt = "Logo da Coruja" class="imagem_botão">
-                <p class="index">Adicionar Turma</p></a>
+        <main class="chat-sala">
+            <h2>Dados do responsável </h2>
+            <form id="add-turma">
+                <input type="text" id="responsavel"  class="login" placeholder="nome"/>
+                <input type="text" id="celular" class="login" placeholder="celular"/>
+                <input type="text" id="telefone" class="login" placeholder="telefone"/>
+                <input type="text" id="email" class="login" placeholder="email"/>
+                <input type="button" value="adicionar" id="salva-responsavel" class="login-botao" onclick="salvar_responsavel()"/> 
+            </form>
         </main>
-        <footer>
-            <a class="bar" onclick="retorna()">
+        <footer class="menor">                
+            <a onclick="retorna()">
                 <img src = "img/button_voltar.png" alt = "Bar icon" class="imagem_menu">
             </a>
         </footer>
     </body>
+
 </html>
