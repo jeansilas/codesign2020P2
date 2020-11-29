@@ -8,9 +8,9 @@ loginButton.addEventListener("click", (e) => {
     const usuario = loginForm.usuario.value;
     const senha = loginForm.senha.value;
 
-    if (username === "usuario" && password === "senha") {
+    if (usuario === "usuario" && senha === "senha") {
         alert("Sucesso!");
-        location.reload();
+        location.href("inicio_professor.html");
     } else {
         loginErrorMsg.style.opacity = 1;
     }

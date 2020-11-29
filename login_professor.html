@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <title>Login Professor</title>
+        <title>Login Responsável</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/reset.css">
@@ -17,19 +17,18 @@
             <img src="img/logo_coruja.png" alt = "logo coruja" class="imagem">
         </header>
         <main>
-            <a class="login">
-                <label for="usuario"><b>Usuário</b></label>
-                <input type="text" placeholder="Usuário" name="usuario" required>
+            <a>
+                <form id="login">
+                    <input type="username" name="usuario"  class="login" placeholder="usuario">
+                    <input type="password" name="senha" class="login" placeholder="senha">
+                    <input type="submit" value="entrar" id="entra" class="login">
+                </form>
+            </a>
+            <a id="erro" class="escondido">
+                <p id="erro">Erro no Login </p>
+            </a>
 
-                <label for="senha"><b>Senha</b></label>
-                <input type="password" placeholder="Senha" name="senha" required>
-            </a>
-            <a href="inicio_professor.html">
-                <button type="submit">Entrar</button>
-            </a>
-            <label>
-            <input type="checkbox" checked="checked" name="remember"> Lembrar usuário
-            </label>
+
         </main>
     </body>
 </html>
