@@ -189,7 +189,6 @@ text {
   text-decoration: none;
   font-family: 'Cabin', sans-serif;
   font-size: 1em;
-
 }
 
 
@@ -227,6 +226,8 @@ footer {
   align-items: center;
   padding:0.5rem
 }
+
+
 .teste_r{
   position: relative;
   display: flex;
@@ -243,6 +244,7 @@ footer {
   width: 80%;
 }
 
+
 .chat-box{
   display: flex;
   flex-direction: row;
@@ -258,6 +260,7 @@ footer {
   width: 80%;
 }
 
+
 .a-sub1{
   margin: 0.3rem;
   padding-left: 2rem;
@@ -271,6 +274,7 @@ footer {
   align-self: flex-end;
 }
 
+
 .a-sub2{
   margin: 0.3rem;
   padding-left: 2rem;
@@ -283,8 +287,12 @@ footer {
   background-color: #FAC35E;
   align-self: flex-start;
 }
+
+
 .menor{
   margin:0.05rem;
+}
+
 
 form {
   display: flex;
