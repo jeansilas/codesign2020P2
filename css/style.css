@@ -45,9 +45,13 @@ header {
     border-bottom: .1rem solid white;
     border-radius: 0rem;
 }
+
+
 .menu_prof {
   background-color: #85A5BC;
 }
+
+
 nav {
   position: fixed;
   top: 0;
@@ -56,6 +60,7 @@ nav {
   color: white;
   background-color: #005988;
 }
+
 
 h1 {
     color:#FAC35E;
@@ -87,6 +92,8 @@ a {
     font-family: 'Cabin', sans-serif;
     background-color: #005988;
 }
+
+
 .profile {
   border: 0rem;
   background-color:#85A5BC ;
@@ -98,21 +105,27 @@ a {
   padding: 0rem;
 }
 
+
 p {
   margin: 0rem 0rem 0rem 1rem;
 }
+
+
 .index{
   margin: 0rem 0rem 0rem 4rem;
 }
+
+
 .index2 {
   justify-content: flex-start;
 }
+
+
 .bar {
   display: block;
   margin: 0rem;
   padding: 0rem;
   border: 0rem;
-
 }
 
 
@@ -157,55 +170,54 @@ p {
 }
 
 
-  text {
-    color: #FAC35E;
-    font-family: 'Cabin', sans-serif;
-  }
-
-
-  .title{
-    color: #FAC35E;
-    text-decoration: none;
-    font-family: 'Cabin', sans-serif;
-    font-size: 2em;
-  }
-
-
-  .content {
-    color: #FAC35E;
-    text-decoration: none;
-    font-family: 'Cabin', sans-serif;
-    font-size: 1em;
-
-  }
-
-
-  .titulo-texto-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: right;
-  }
-
-
-  .titulo-texto-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: left;
-  }
-  
-
-  footer {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 1rem;
-    justify-content: space-between;
+text {
+  color: #FAC35E;
+  font-family: 'Cabin', sans-serif;
 }
 
+
+.title{
+  color: #FAC35E;
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
+  font-size: 2em;
+}
+
+
+.content {
+  color: #FAC35E;
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1em;
+
+}
+
+
+.titulo-texto-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: right;
+}
+
+
+.titulo-texto-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  justify-content: space-between;
+}
 
 
 form {
