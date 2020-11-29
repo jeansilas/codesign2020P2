@@ -76,7 +76,8 @@ h2 {
 a {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     margin: 1rem;
     padding: 1rem;
     border: .1rem solid white;
@@ -99,6 +100,12 @@ a {
 
 p {
   margin: 0rem 0rem 0rem 1rem;
+}
+.index{
+  margin: 0rem 0rem 0rem 4rem;
+}
+.index2 {
+  justify-content: flex-start;
 }
 .bar {
   display: block;
