@@ -20,6 +20,7 @@ main{
     justify-content: space-evenly;
     padding: 2rem;
     height: 100%;
+    font-family: 'Cabin', sans-serif;
 }
 
 
@@ -218,7 +219,7 @@ footer {
   justify-content: space-between;
 }
 
-.chat-sala{
+.chat-sala {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -228,7 +229,7 @@ footer {
 }
 
 
-.chat-fundo{
+.chat-fundo {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -245,7 +246,7 @@ footer {
 }
 
 
-.chat-box{
+.chat-box {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -261,7 +262,7 @@ footer {
 }
 
 
-.a-sub1{
+.a-sub1 {
   margin: 0.3rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -275,7 +276,7 @@ footer {
 }
 
 
-.a-sub2{
+.a-sub2 {
   margin: 0.3rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -289,7 +290,7 @@ footer {
 }
 
 
-.menor{
+.menor {
   margin:0.05rem;
 }
 
@@ -322,7 +323,7 @@ input {
 }
 
 
-.aluno-fundo{
+.aluno-fundo {
   align-self: center;
   position: relative;
   display: flex;
@@ -332,9 +333,29 @@ input {
   align-items: flex-start;
   margin:0rem;
   padding: 1rem;
-  border: .1rem solid black;
+  border: .1rem solid #FAC35E;
   border-radius:4rem;
-  background-color: #ffffff;
+  background-color: #85A5BC;
   height: 100%;
   width: 80%;
+}
+
+.flex-vertical {
+  flex-direction: vertical;
+}
+
+
+a-dentro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: solid white;
+  color: #FAC35E;
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
+  background-color: #005988;
 }
