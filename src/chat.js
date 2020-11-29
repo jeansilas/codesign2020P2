@@ -1,3 +1,5 @@
 function enviar_chat() {
-    location.reload();
+    window.location = "mensagens_comunidade.html";
+    return false;
 }
+
