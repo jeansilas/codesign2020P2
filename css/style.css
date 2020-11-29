@@ -109,6 +109,9 @@ a {
 
 p {
   margin: 0rem 0rem 0rem 1rem;
+  color: #FAC35E;
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
 }
 
 
@@ -342,20 +345,25 @@ input {
 
 .flex-vertical {
   flex-direction: vertical;
+  background-color: #005988;
+  width: auto;
+  height: auto;
 }
 
 
 a-dentro {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 1rem;
   padding: 1rem;
   border-radius: 1rem;
-  border: solid white;
+  border: #85A5BC;
   color: #FAC35E;
   text-decoration: none;
   font-family: 'Cabin', sans-serif;
   background-color: #005988;
+  width: 80%;
+  height: 80%;
 }
