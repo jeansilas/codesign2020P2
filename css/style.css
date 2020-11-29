@@ -316,6 +316,12 @@ input {
   opacity: 0;
 }
 
+
+.aparece {
+  opacity: 1;
+}
+
+
 .aluno-fundo{
   align-self: center;
   position: relative;

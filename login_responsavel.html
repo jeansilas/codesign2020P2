@@ -7,28 +7,28 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.google.com/specimen/Cabin" rel="stylesheet">
+        <script type="text/javascript" src="src/login.js"></script>
     </head>
     <body>
-        <script type="text/javascript" src="src/main.js"></script>
         <header>
             <h1>
                 Login
             </h1>
             <img src="img/logo_coruja.png" alt = "logo coruja" class="imagem">
         </header>
+
         <main>
+            <a id="erro" class="escondido">
+                <p>Erro no Login </p>
+            </a>
+
             <a>
-                <form id="login">
-                    <input type="username" name="usuario"  class="login" placeholder="usuario">
-                    <input type="password" name="senha" class="login" placeholder="senha">
-                    <input type="submit" value="entrar" id="confirma" class="login">
+                <form id="login-form">
+                    <input type="username" id="username"  class="login" placeholder="usuario">
+                    <input type="password" id="password" class="login" placeholder="senha">
+                    <input type="button" value="entrar" id="botao-login" class="login" onclick="erro()"/> 
                 </form>
             </a>
-            <a id="erro" class="escondido">
-                <p id="erro">Erro no Login </p>
-            </a>
-
-
         </main>
     </body>
 </html>
