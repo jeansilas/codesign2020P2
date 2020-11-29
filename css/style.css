@@ -225,6 +225,14 @@ form {
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
-  ;
 }
 
+
+input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 80%;
+  height: 80%;
+}
