@@ -270,6 +270,9 @@ footer {
   background-color: #ffffff;
   height: 100%;
   width: 80%;
+  border-bottom-left-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+
 }
 
 

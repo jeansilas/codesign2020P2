@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.google.com/specimen/Cabin" rel="stylesheet">
         <script type="text/javascript" src="src/erro.js"></script>
+        <script type="text/javascript" src="src/chat.js"></script>
     </head>
     <body>
         <header class = "menu menor" >
@@ -18,17 +19,15 @@
             <img src = "img/logo_coruja.png" alt = "Logo da Coruja" class="imagem_menu">
         </header>
         <main class="chat-sala">
-            <div class="chat-fundo">
-                <p class="a-sub1">Mensagem 1</p>
-                <p class="a-sub2">Mensagem 2</p>
-                <p class="a-sub1">Mensagem 3</p>
-                <p class="a-sub2">Mensagem 4</p>
-                <p class="a-sub1">Mensagem 5</p>
-            </div>
-            <a class="chat-box">
-                <input type="text" placeholder="Mensagem" name="mensagem" required>
-                <img src = "img/button_send.png" alt = "Bar icon" class="imagem_menu">
-            </a>
+            <ul class="chat-fundo" id='ul'>
+                <li class="a-sub1">Item A</li>
+                <li class="a-sub2">Item B</li>
+                <li class="a-sub2">Item C</li>
+            </ul>
+            <form class="chat-box" id='form-chat'>
+                <input type="mensagem" id="mensagem"  class="chat" placeholder="mensagem">
+                <input type="button" value="enviar" id="botao-login" class="chat-botao" onclick="enviar()"/> 
+            </form>
         </main>
         <footer class="menor">
             <a class="bar" onclick="retorna()">
@@ -37,6 +36,29 @@
         </footer>
     </body>
 </html>
+
+<!--
+<main class="chat-sala">
+    <div class="chat-fundo">
+        <p class="a-sub1">Mensagem 1</p>
+        <p class="a-sub2">Mensagem 2</p>
+        <p class="a-sub1">Mensagem 3</p>
+        <p class="a-sub2">Mensagem 4</p>
+        <p class="a-sub1">Mensagem 5</p>
+    </div>
+    <a class="chat-box">
+        <input type="text" placeholder="Mensagem" name="mensagem" required>
+        <img src = "img/button_send.png" alt = "Bar icon" class="imagem_menu">
+    </a>
+</main>
+<footer class="menor">
+    <a class="bar" onclick="retorna()">
+        <img src = "img/button_voltar.png" alt = "Bar icon" class="imagem_menu">
+    </a>
+</footer>
+</body>
+</html>
+-->
 
 <!--          <div class="teste_r">
     <a class="a-sub1">Mensagem 1</a>
