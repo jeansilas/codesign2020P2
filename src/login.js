@@ -10,7 +10,7 @@ function validar(){
     else{
         loginErrorMsg.className = "aparece";
         // location.reload()
-        
+        document.forms['login-form'].reset()
         return false;
     }
 }
