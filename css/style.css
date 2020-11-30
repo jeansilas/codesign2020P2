@@ -253,7 +253,6 @@ footer {
   justify-content: center;
   align-items: center;
   padding:0.5rem;
-  font-family: 'Antic Didone', serif;
 }
 
 
@@ -263,17 +262,19 @@ footer {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin:0rem;
+  margin:0rem ;
   padding: 1rem;
   border: .1rem solid white;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   background-color: #ffffff;
-  height: 100%;
   width: 80%;
   border-bottom-left-radius: 0rem;
   border-bottom-right-radius: 0rem;
-
+  height:23rem;
+  overflow-y:scroll;
+  font-family: 'Antic Didone', serif;
+  
 }
 
 
@@ -292,7 +293,7 @@ footer {
   width: 80%;
 }
 
-
+/* isso serve para alguma coisa?*/
 .chat-box-2 {
   display: flex;
   flex-direction: row;
