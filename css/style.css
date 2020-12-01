@@ -531,6 +531,8 @@ li {
   background-color: #85A5BC;
 }
 
-.break-word{
-  word-wrap: break-word;
+.word-break{
+  word-break: break-all;
+  overflow-y:scroll;
+  max-height:20rem;
 }
