@@ -389,6 +389,7 @@ input {
   width: 80%;
 }
 
+
 .flex-vertical {
   flex-direction: column;
   justify-content: center;
@@ -399,7 +400,7 @@ input {
 }
 
 
-a-dentro {
+.a-dentro {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -507,9 +508,7 @@ li {
   padding: 1rem;
   border-radius: 1rem;
   background-color:#FAC35E;
-  font-family: 'Antic Didone', serif;
-
-  
+  font-family: 'Antic Didone', serif;  
 }
 
 
