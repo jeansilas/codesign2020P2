@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Adicionar Responsável</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.google.com/specimen/Cabin" rel="stylesheet">
+        <script  src="src/add_turma.js"></script>
+        <script  src="src/erro.js"></script>
+    </head>
+    <body>
+        <header class = "menu menor" >
+            <a class="bar" href="menu_professor.html">
+                <img src = "img/Bar.png" alt = "Bar icon" class="imagem_menu">
+            </a>
+            <h2>Turma 1</h2>
+            <img src = "img/logo_coruja.png" alt = "Logo da Coruja" class="imagem_menu">
+        </header>
+        <main class="chat-sala">
+            <h2>Dados do responsável </h2>
+            <form id="add-turma">
+                <input type="text" id="responsavel"  class="login" placeholder="nome"/>
+                <input type="text" id="celular" class="login" placeholder="celular"/>
+                <input type="text" id="telefone" class="login" placeholder="telefone"/>
+                <input type="text" id="email" class="login" placeholder="email"/>
+                <input type="button" value="adicionar" id="salva-responsavel" class="login-botao" onclick="salvar_responsavel()"/> 
+            </form>
+        </main>
+        <footer class="menor">                
+            <a onclick="retorna()">
+                <img src = "img/button_voltar.png" alt = "Bar icon" class="imagem_menu">
+            </a>
+        </footer>
+    </body>
+
+</html>
