@@ -299,9 +299,6 @@ footer {
   padding-right: 2rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  border: 0.05rem solid black;
-  border-radius: 1rem;
-  color:black;
   background-color: #85A5BC;
   align-self: flex-end;
   max-width: 18rem;
@@ -315,9 +312,6 @@ footer {
   padding-right: 2rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  border: 0.05rem solid black;
-  border-radius: 1rem;
-  color:black;
   background-color: #FAC35E;
   align-self: flex-start;
 }
