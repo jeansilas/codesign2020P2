@@ -264,7 +264,7 @@ footer {
   align-items: center;
   margin:0rem ;
   padding: 1rem;
-  border: .1rem solid white;
+  border: .1rem solid #85A5BC;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   background-color: #ffffff;
@@ -311,7 +311,7 @@ footer {
   padding-right: 2rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  border: .0.05rem solid black;
+  border: 0.05rem solid black;
   border-radius: 1rem;
   color:black;
   background-color: #85A5BC;
@@ -325,7 +325,7 @@ footer {
   padding-right: 2rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  border: .0.05rem solid black;
+  border: 0.05rem solid black;
   border-radius: 1rem;
   color:black;
   background-color: #FAC35E;
@@ -497,12 +497,11 @@ li {
   border-radius: 1rem;
   background-color:#FAC35E;
   font-family: 'Antic Didone', serif;
-  text-emphasis: bold;
+
   
 }
 
 
 .cabecario {
   background-color: #85A5BC;
-
 }
