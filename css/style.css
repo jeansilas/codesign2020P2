@@ -491,6 +491,12 @@ button {
 }
 
 
+.botao {
+  width: 4rem ;
+  height: 4rem ;
+}
+
+
 div {
   flex-grow: 1;
   display: flex;
