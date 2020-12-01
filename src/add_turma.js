@@ -9,7 +9,7 @@ function adicionar_aluno() {
     var turma = document.getElementById("turma").value;
     var professor = document.getElementById("professor").value;
 
-    window.location = "telas_extra/add_aluno.html";
+    window.location = "add_aluno.html";
     return false;
 }
 
@@ -18,13 +18,13 @@ function salvar_aluno() {
     var nome = document.getElementById("nome").value;
     var numero = document.getElementById("numero").value;
 
-    window.location = "telas_extra/add_turma.html";
+    window.location = "add_turma.html";
     return false;
 }
 
 
 function adicionar_responsavel() {
-    window.location = "telas_extra/add_responsavel.html";
+    window.location = "add_responsavel.html";
     return false;
     
 }
@@ -36,7 +36,7 @@ function salvar_responsavel() {
     var telefone = document.getElementById("telefone").value;
     var email = document.getElementById("email").value;
 
-    window.location = "telas_extra/add_aluno.html";
+    window.location = "add_aluno.html";
     return false;
 }
 
