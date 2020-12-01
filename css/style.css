@@ -293,18 +293,6 @@ footer {
   width: 80%;
 }
 
-/* isso serve para alguma coisa?*/
-.chat-box-2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin:0rem;
-  padding: 1rem;
-  border: .1rem solid white;
-  background-color: #85A5BC;
-}
-
-
 .a-sub1 {
   margin: 0.3rem;
   padding-left: 2rem;
@@ -540,8 +528,10 @@ li {
     background-color: #005988;
 }
 
-
-
-.cabecario {
+.azul{
   background-color: #85A5BC;
+}
+
+.break-word{
+  word-wrap: break-word;
 }
