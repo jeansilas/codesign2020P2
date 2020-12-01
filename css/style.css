@@ -274,7 +274,7 @@ footer {
   height:23rem;
   overflow-y:scroll;
   font-family: 'Antic Didone', serif;
-  
+  word-break: break-all
 }
 
 
@@ -316,6 +316,8 @@ footer {
   color:black;
   background-color: #85A5BC;
   align-self: flex-end;
+  max-width: 18rem;
+  min-width: 2rem;
 }
 
 
