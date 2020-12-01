@@ -10,6 +10,7 @@
         <link href="https://fonts.google.com/specimen/Cabin" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap" rel="stylesheet">
         <script src="src/erro.js"></script>
+        <script src="src/chat.js"></script>
     </head>
     <body>
         <header class = "menu">
@@ -29,7 +30,7 @@
                 </li>
             </menu>
             <div>
-                <ul>
+                <ul id='ul'>
                     <li class="cabecario">
                         <img src = "img/avatar.png" alt="Imagem do perfil" class ="imagem_botão">
                         - Profª Renata Silva:
@@ -41,22 +42,22 @@
                     (21) 0000-0000 (Fixo)
                     </li>
                 </ul>
-                <form class="enviar" >
-                    <input type="text" placeholder="Responder" name="mensagem" required>
-                    <img src = "img/button_send.png" alt = "Bar icon" class="imagem_menu">
+                <form class="enviar" id='form-chat'>
+                    <input type="text" id="mensagem"  class="chat" placeholder="mensagem">
+                    <img onclick="javascript:enviar()" src = "img/button_send.png" alt = "Bar icon" class="imagem_menu">
                 </form>
             </div>
             <div>
-                <ul>
+                <ul id='ul'>
                     <li class="cabecario">
                         <img src = "img/avatar.png" alt="Imagem do perfil" class ="imagem_botão">
                         - Profº Rafael Souza:
                     </li>
                     <li>Nossa, tenho enfrentado o mesmo problema. Meus alunos não estão interagindo o necessário nas aulas. Tempos difíceis para todos!</li>
                 </ul>
-                <form class="enviar" >
-                        <input type="text" placeholder="Responder" name="mensagem" required>
-                        <img src = "img/button_send.png" alt = "Bar icon" class="imagem_menu">
+                <form class="enviar" id='form-chat' >
+                    <input type="text" id="mensagem"  class="chat" placeholder="mensagem">
+                    <img onclick="javascript:enviar()" src = "img/button_send.png" alt = "Bar icon" class="imagem_menu">
                 </form>
             </div>
         </main>
