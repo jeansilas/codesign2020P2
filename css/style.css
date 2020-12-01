@@ -356,7 +356,7 @@ input {
   height: 80%;
 }
 
-enviar {
+.enviar {
   display: flex;
   flex-direction: row;
   justify-content: center;
